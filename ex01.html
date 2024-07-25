@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그리드(Grid)</title>
+    <style>
+        :root{
+            font-size:24px;
+        }
+        .container{
+           width:940px;
+           height:200px;
+           margin:0 auto;
+           background:rgba(255,0,0,0.1);
+           display:grid;
+           grid-template-columns:1fr 1fr;
+           column-gap:20px;
+        }
+    </style>
+</head>
+<body>    
+    <h1>Grid Container</h1>
+    <p>그리드 컨테이너는 그리드 아이템을 가로로 배치한다.</p>
+    <div class="container">
+        <div>할리스 멤버십</div>
+        <div>할리스 카드</div>        
+    </div>
+</body>
+</html>
