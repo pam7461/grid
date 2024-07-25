@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        section{
+            width:1000px;
+            height:500px;
+            margin:0 auto;
+            padding:20px;
+            background:lightcoral;
+
+            display:grid;
+            grid-template-columns:repeat(3, auto);
+            justify-content:space-evenly;
+            align-content:space-evenly;
+        }
+        article{
+            width:100px;
+            height:100px;
+            background:lightblue;
+            font-size:30px;
+            text-align:center;
+            line-height:100px;
+        }
+        article:nth-child(1){
+            order:6;
+        }
+        article:nth-child(2){
+            order:2;
+        }
+        article:nth-child(3){
+            order:3;
+        }
+        article:nth-child(4){
+            order:4;
+        }
+        article:nth-child(5){
+            order:5;
+        }
+        article:nth-child(6){
+            order:1;
+        }
+    </style>
 </head>
 <body>
+    <h1>grid 맞춤</h1>
+    <p>grid는 flex의 맞춤을 그대로 사용할 수 있다.</p>
     <section>
         <article>1</article>
         <article>2</article>
