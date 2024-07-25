@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그리드(Grid)</title>
+    <style>
+        :root{
+            font-size:24px;
+        }
+        .container{
+            padding:20px;
+            background:lightcoral;
+            display:grid;
+            grid-template-columns:1fr 1fr 1fr;
+            column-gap:20px;
+            grid-template-rows:100px 200px 500px;
+            row-gap:20px;
+        }
+        .container div{
+            padding:20px 0;
+            background:lightblue;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>    
+    <h1>Grid Container</h1>
+    <p>그리드 컨테이너는 그리드 아이템을 가로로 배치한다.</p>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+</body>
+</html>
