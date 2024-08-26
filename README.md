@@ -32,4 +32,6 @@
 [![대체택스트](https://pam7461.github.io/grid/images/ico-face.png)](https://pam7461.github.io/grid/ex08.html)
 
 ## HTML CODE  
+```html
 <a href="#">링크택스트</a>
+```
