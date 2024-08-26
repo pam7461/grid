@@ -35,3 +35,9 @@
 ```html
 <a href="#">링크택스트</a>
 ```
+
+a{
+    font-size:20px;
+    color:#ff0000;
+}
+
