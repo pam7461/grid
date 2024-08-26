@@ -27,7 +27,8 @@
 
 [링크](https://pam7461.github.io/grid/ex01.html)  
 
-
 ![대체택스트](https://pam7461.github.io/grid/images/ico-face.png)  
+
+[![대체택스트]](https://pam7461.github.io/grid/ex01.html)
 
 
