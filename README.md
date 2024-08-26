@@ -26,5 +26,5 @@
 엔터 2번
 
 [현재창에서 링크](https://pam7461.github.io/grid/ex01.html)  
-[새창에서 링크](https://pam7461.github.io/grid/ex01.html){:target="_blank"}  
+<a href="https://pam7461.github.io/grid/ex01.html">새창에서 링크</a>
 
