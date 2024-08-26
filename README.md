@@ -25,5 +25,6 @@
 줄바꿈은 스페이스바 2번  
 엔터 2번
 
-[링크택스트](링크주소)  
-[링크택스트](링크주소)
+[현재창에서 링크](https://pam7461.github.io/grid/ex01.html)  
+[새창에서 링크](https://pam7461.github.io/grid/ex01.html){:target="_blank"}  
+
