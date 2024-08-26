@@ -25,6 +25,6 @@
 줄바꿈은 스페이스바 2번  
 엔터 2번
 
-[현재창에서 링크](https://pam7461.github.io/grid/ex01.html)  
-<a href="https://pam7461.github.io/grid/ex01.html" target="_blank">새창에서 링크</a>
+[링크](https://pam7461.github.io/grid/ex01.html)  
+
 
