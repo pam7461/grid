@@ -68,4 +68,4 @@ a{
 <u>밑줄</u>
 <a href="" target="_blank" title>링크</a>
 
-# ❤️ Emoji
+# ❤️ Emoji 🧏‍♀️
